@@ -1,0 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package polindrom;
+
+/**
+ *
+ * @author user
+ */
+public class model {
+    public String model (String str){
+        String string =str;
+        StringBuilder strBuilder=
+                new StringBuilder(string.subSequence(0,string.length()));
+        strBuilder.reverse();
+        return strBuilder.toString();
+    }
+}
